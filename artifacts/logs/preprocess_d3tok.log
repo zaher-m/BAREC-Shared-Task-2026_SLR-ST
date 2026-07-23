@@ -1,0 +1,15 @@
+  [train] 5000/54845  9s  (579 sent/s)
+  [train] 10000/54845  19s  (536 sent/s)
+  [train] 15000/54845  29s  (520 sent/s)
+  [train] 20000/54845  39s  (514 sent/s)
+  [train] 25000/54845  55s  (458 sent/s)
+  [train] 30000/54845  75s  (401 sent/s)
+  [train] 35000/54845  84s  (417 sent/s)
+  [train] 40000/54845  96s  (415 sent/s)
+  [train] 45000/54845  113s  (397 sent/s)
+  [train] 50000/54845  130s  (385 sent/s)
+[train] 54845 rows -> /zaher/SLRA-ST/data/proc_d3tok_train.parquet
+  [validation] 5000/7310  10s  (505 sent/s)
+[validation] 7310 rows -> /zaher/SLRA-ST/data/proc_d3tok_validation.parquet
+  [test] 5000/7286  11s  (455 sent/s)
+[test] 7286 rows -> /zaher/SLRA-ST/data/proc_d3tok_test.parquet
