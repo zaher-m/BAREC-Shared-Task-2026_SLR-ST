@@ -1,0 +1,11 @@
+>>> 16:48 arabertv2_reg_d3 (aubmindlab/bert-base-arabertv2 / reg / d3tok)
+<<< 17:15 done arabertv2_reg_d3 (exit 0)
+>>> 17:15 marbert_reg_d3n (UBC-NLP/MARBERTv2 / reg / d3tok)
+<<< 17:48 done marbert_reg_d3n (exit 0)
+>>> 17:48 camelbert_reg_d3n (CAMeL-Lab/bert-base-arabic-camelbert-mix / reg / d3tok)
+<<< 18:10 done camelbert_reg_d3n (exit 0)
+>>> 18:10 aramodern_reg_raw (NAMAA-Space/AraModernBert-Base-V1.0 / reg / raw)
+<<< 19:05 done aramodern_reg_raw (exit 0)
+>>> 19:05 arabertv2_corn_d3 (aubmindlab/bert-base-arabertv2 / corn / d3tok)
+<<< 19:40 done arabertv2_corn_d3 (exit 0)
+=== MATRIX2 DONE 19:40 ===
