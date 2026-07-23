@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 77492.02it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: CAMeL-Lab/bert-base-arabic-camelbert-mix
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=10.5777 dev_QWK(naive)=79.953 397s
+ep1 loss=2.4978 dev_QWK(naive)=80.993 544s
+ep2 loss=1.7418 dev_QWK(naive)=80.181 556s
+ep3 loss=1.3397 dev_QWK(naive)=81.328 353s
+ep4 loss=1.0629 dev_QWK(naive)=80.592 406s
+ep5 loss=0.8963 dev_QWK(naive)=81.019 547s
+ep6 loss=0.8149 dev_QWK(naive)=80.854 433s
+early stop
+[camelbert_reg_d3 DEV  cal] QWK=81.7622 Acc19=29.93 Acc7=55.16 Acc5=62.95 Acc3=73.45 Adj+-1=67.78 MAE=1.3605
+[camelbert_reg_d3 TEST cal] QWK=82.6047 Acc19=29.06 Acc7=54.12 Acc5=61.25 Acc3=70.38 Adj+-1=68.05 MAE=1.3223
+saved scores_camelbert_reg_d3.npz and checkpoint /zaher/SLRA-ST/artifacts/models/camelbert_reg_d3

@@ -1,0 +1,5 @@
+>>> 14:33 training camelbert_reg_d3 (CAMeL-Lab/bert-base-arabic-camelbert-mix / reg)
+<<< 15:27 finished camelbert_reg_d3 (exit 0)
+>>> 15:27 training aramodern_reg_d3 (NAMAA-Space/AraModernBert-Base-V1.0 / reg)
+<<< 16:06 finished aramodern_reg_d3 (exit 0)
+>>> 16:06 training marbert_corn_d3 (UBC-NLP/MARBERTv2 / corn)
