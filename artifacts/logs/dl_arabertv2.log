@@ -1,0 +1,3 @@
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files: 100%|██████████| 6/6 [00:00<00:00, 19957.04it/s]
+OK dir: /cache/hub/models--aubmindlab--bert-base-arabertv2/snapshots/97522efce17efa33036ac619802d5cec238dcad9
+files: ['config.json', 'model.safetensors', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer.json', 'tokenizer_config.json', 'vocab.txt']
