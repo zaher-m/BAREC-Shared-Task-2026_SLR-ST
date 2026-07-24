@@ -1,0 +1,7 @@
+>>> 13:03 araelectra_reg_d3 (aubmindlab/araelectra-base-discriminator / reg / d3tok)
+<<< 13:33 done araelectra_reg_d3 (exit 0)
+>>> 13:33 arbertv2_reg_d3 (UBC-NLP/ARBERTv2 / reg / d3tok)
+<<< 14:01 done arbertv2_reg_d3 (exit 0)
+>>> 14:01 araelectra_corn_d3 (aubmindlab/araelectra-base-discriminator / corn / d3tok)
+<<< 14:40 done araelectra_corn_d3 (exit 0)
+>>> 14:40 marbert_corn_d3 (UBC-NLP/MARBERTv2 / corn / d3tok)

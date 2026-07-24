@@ -1,0 +1,21 @@
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 10591.41it/s]
+[transformers] [1mElectraModel LOAD REPORT[0m from: aubmindlab/araelectra-base-discriminator
+Key                                               | Status     |  | 
+--------------------------------------------------+------------+--+-
+discriminator_predictions.dense_prediction.weight | UNEXPECTED |  | 
+discriminator_predictions.dense.weight            | UNEXPECTED |  | 
+discriminator_predictions.dense.bias              | UNEXPECTED |  | 
+discriminator_predictions.dense_prediction.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=0.2398 dev_QWK(naive)=70.107 291s
+ep1 loss=0.1422 dev_QWK(naive)=78.835 288s
+ep2 loss=0.1186 dev_QWK(naive)=80.697 298s
+ep3 loss=0.1029 dev_QWK(naive)=80.317 590s
+ep4 loss=0.0898 dev_QWK(naive)=80.375 548s
+ep5 loss=0.0803 dev_QWK(naive)=79.532 284s
+early stop
+[araelectra_corn_d3 DEV  cal] QWK=82.5853 Acc19=33.95 Acc7=56.47 Acc5=64.69 Acc3=75.08 Adj+-1=71.48 MAE=1.2776
+[araelectra_corn_d3 TEST cal] QWK=83.3106 Acc19=33.35 Acc7=55.97 Acc5=63.29 Acc3=72.50 Adj+-1=70.59 MAE=1.2532
+saved scores_araelectra_corn_d3.npz and checkpoint /zaher/SLRA-ST/artifacts/models/araelectra_corn_d3

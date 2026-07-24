@@ -1,0 +1,5 @@
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files:  14%|█▍        | 1/7 [00:00<00:02,  2.09it/s]Fetching 7 files:  29%|██▊       | 2/7 [05:09<15:09, 181.83s/it]Fetching 7 files:  43%|████▎     | 3/7 [05:12<06:41, 100.49s/it]Fetching 7 files: 100%|██████████| 7/7 [05:12<00:00, 44.71s/it] 
+OK aubmindlab/araelectra-base-discriminator -> ['config.json', 'model.safetensors', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer.json', 'tokenizer_config.json', 'vocab.txt']
+Fetching 6 files:   0%|          | 0/6 [00:00<?, ?it/s]Fetching 6 files:  33%|███▎      | 2/6 [04:36<09:13, 138.36s/it]Fetching 6 files:  50%|█████     | 3/6 [06:07<05:55, 118.50s/it]Fetching 6 files: 100%|██████████| 6/6 [06:07<00:00, 61.23s/it] 
+OK UBC-NLP/ARBERTv2 -> ['config.json', 'model.safetensors', 'pytorch_model.bin', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt']
+DL_DONE
