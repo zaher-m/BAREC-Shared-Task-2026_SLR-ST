@@ -1,0 +1,26 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 76631.15it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: UBC-NLP/MARBERTv2
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.decoder.weight             | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.decoder.bias               | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=0.2356 dev_QWK(naive)=73.013 346s
+ep1 loss=0.1322 dev_QWK(naive)=79.802 350s
+ep2 loss=0.1038 dev_QWK(naive)=80.656 349s
+ep3 loss=0.0834 dev_QWK(naive)=79.999 351s
+ep4 loss=0.0670 dev_QWK(naive)=80.064 351s
+ep5 loss=0.0553 dev_QWK(naive)=79.660 353s
+early stop
+[marbert_corn_d3 DEV  cal] QWK=82.1141 Acc19=32.22 Acc7=55.72 Acc5=64.36 Acc3=74.54 Adj+-1=68.50 MAE=1.3361
+[marbert_corn_d3 TEST cal] QWK=82.6003 Acc19=32.68 Acc7=55.72 Acc5=63.77 Acc3=72.54 Adj+-1=69.41 MAE=1.2911
+saved scores_marbert_corn_d3.npz and checkpoint /zaher/SLRA-ST/artifacts/models/marbert_corn_d3

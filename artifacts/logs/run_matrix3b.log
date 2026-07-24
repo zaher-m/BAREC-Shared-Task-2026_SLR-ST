@@ -1,0 +1,10 @@
+skip araelectra_reg_d3 (done)
+skip arbertv2_reg_d3 (done)
+skip araelectra_corn_d3 (done)
+>>> 16:32 marbert_corn_d3 (UBC-NLP/MARBERTv2 / corn / d3tok)
+<<< 17:07 done marbert_corn_d3 (exit 0)
+>>> 17:07 camelbert_corn_d3 (CAMeL-Lab/bert-base-arabic-camelbert-mix / corn / d3tok)
+<<< 17:33 done camelbert_corn_d3 (exit 0)
+>>> 17:33 aramodern_corn_raw (NAMAA-Space/AraModernBert-Base-V1.0 / corn / raw)
+<<< 18:20 done aramodern_corn_raw (exit 0)
+=== MATRIX3 DONE 18:20 ===
