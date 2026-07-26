@@ -1,0 +1,3 @@
+>>> downloading bert-large-arabertv2 17:36
+Fetching 8 files:   0%|          | 0/8 [00:00<?, ?it/s]Fetching 8 files:  12%|█▎        | 1/8 [00:00<00:03,  1.81it/s]Fetching 8 files:  25%|██▌       | 2/8 [31:55<1:52:39, 1126.50s/it]Fetching 8 files:  38%|███▊      | 3/8 [38:18<1:05:36, 787.21s/it] Fetching 8 files: 100%|██████████| 8/8 [38:18<00:00, 287.33s/it]  
+downloaded /cache/hub/models--aubmindlab--bert-large-arabertv2/snapshots/345ef02845e16b2b235ad8f04892057a3450c555
