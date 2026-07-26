@@ -1,0 +1,7 @@
+>>> 21:27:09 arabertv2_reg_s2 (reg/d3tok seed=101 bs=32)
+<<< 21:51:49 done arabertv2_reg_s2 (exit 0)
+>>> 21:51:49 arabertv2_soft_s2 (soft/d3tok seed=101 bs=32)
+<<< 22:13:21 done arabertv2_soft_s2 (exit 0)
+>>> 22:13:21 arabertv2_corn_s2 (corn/d3tok seed=101 bs=32)
+<<< 22:50:23 done arabertv2_corn_s2 (exit 0)
+>>> 22:50:23 arabertv2_emd_s2 (emd/d3tok seed=101 bs=32)
