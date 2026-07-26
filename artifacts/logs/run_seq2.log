@@ -1,0 +1,11 @@
+>>> 19:18:50 start marbert_soft_d3 (soft) bs64
+<<< 19:40:00 done marbert_soft_d3 (exit 0)
+>>> 19:40:00 start camelbert_soft_d3 (soft) bs64
+<<< 19:57:25 done camelbert_soft_d3 (exit 0)
+>>> 19:57:25 start araelectra_soft_d3 (soft) bs64
+<<< 20:16:11 done araelectra_soft_d3 (exit 0)
+>>> 20:16:11 start arabertv2_emd_d3 (emd) bs64
+<<< 20:32:36 done arabertv2_emd_d3 (exit 0)
+>>> 20:32:36 start marbert_wkl_d3 (wkl) bs64
+<<< 20:53:52 done marbert_wkl_d3 (exit 0)
+=== SEQ2 OBJ DONE 20:53:52 ===
