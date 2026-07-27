@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/134 [00:00<?, ?it/s]Loading weights: 100%|██████████| 134/134 [00:00<00:00, 11056.53it/s]
+[transformers] [1mModernBertModel LOAD REPORT[0m from: NAMAA-Space/AraModernBert-Base-V1.0
+Key               | Status     |  | 
+------------------+------------+--+-
+decoder.bias      | UNEXPECTED |  | 
+head.dense.weight | UNEXPECTED |  | 
+head.norm.weight  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=0.7796 dev_QWK(naive)=79.104 422s
+ep1 loss=0.4813 dev_QWK(naive)=79.334 424s
+ep2 loss=0.2947 dev_QWK(naive)=78.616 425s
+ep3 loss=0.1566 dev_QWK(naive)=78.740 425s
+ep4 loss=0.0860 dev_QWK(naive)=77.815 424s
+early stop
+[aramodern_soft_raw DEV  cal] QWK=81.4253 Acc19=30.15 Acc7=54.75 Acc5=61.82 Acc3=73.26 Adj+-1=67.70 MAE=1.3770
+[aramodern_soft_raw TEST cal] QWK=82.1472 Acc19=30.25 Acc7=54.56 Acc5=60.94 Acc3=70.79 Adj+-1=68.24 MAE=1.3327
+saved scores_aramodern_soft_raw.npz and checkpoint /zaher/SLRA-ST/artifacts/models/aramodern_soft_raw

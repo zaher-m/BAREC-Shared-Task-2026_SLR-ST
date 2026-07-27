@@ -1,0 +1,24 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12617.98it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: UBC-NLP/ARBERTv2
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=0.7216 dev_QWK(naive)=81.744 246s
+ep1 loss=0.4960 dev_QWK(naive)=81.622 245s
+ep2 loss=0.3677 dev_QWK(naive)=82.016 245s
+ep3 loss=0.2657 dev_QWK(naive)=80.837 245s
+ep4 loss=0.1890 dev_QWK(naive)=81.150 246s
+ep5 loss=0.1413 dev_QWK(naive)=80.639 245s
+early stop
+[arbertv2_soft_d3 DEV  cal] QWK=82.8483 Acc19=38.63 Acc7=59.95 Acc5=65.83 Acc3=75.40 Adj+-1=71.40 MAE=1.2257
+[arbertv2_soft_d3 TEST cal] QWK=83.7243 Acc19=37.84 Acc7=60.02 Acc5=64.91 Acc3=73.21 Adj+-1=71.78 MAE=1.1872
+saved scores_arbertv2_soft_d3.npz and checkpoint /zaher/SLRA-ST/artifacts/models/arbertv2_soft_d3

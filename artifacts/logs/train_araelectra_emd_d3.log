@@ -1,0 +1,21 @@
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 12622.64it/s]
+[transformers] [1mElectraModel LOAD REPORT[0m from: aubmindlab/araelectra-base-discriminator
+Key                                               | Status     |  | 
+--------------------------------------------------+------------+--+-
+discriminator_predictions.dense_prediction.bias   | UNEXPECTED |  | 
+discriminator_predictions.dense.weight            | UNEXPECTED |  | 
+discriminator_predictions.dense.bias              | UNEXPECTED |  | 
+discriminator_predictions.dense_prediction.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=1.1465 dev_QWK(naive)=79.607 222s
+ep1 loss=0.7919 dev_QWK(naive)=80.688 221s
+ep2 loss=0.6436 dev_QWK(naive)=81.634 221s
+ep3 loss=0.5367 dev_QWK(naive)=81.539 222s
+ep4 loss=0.4507 dev_QWK(naive)=81.168 221s
+ep5 loss=0.3883 dev_QWK(naive)=80.869 222s
+early stop
+[araelectra_emd_d3 DEV  cal] QWK=82.6122 Acc19=37.41 Acc7=61.08 Acc5=66.91 Acc3=75.50 Adj+-1=72.50 MAE=1.2354
+[araelectra_emd_d3 TEST cal] QWK=83.7113 Acc19=38.40 Acc7=60.71 Acc5=66.03 Acc3=73.87 Adj+-1=72.22 MAE=1.1798
+saved scores_araelectra_emd_d3.npz and checkpoint /zaher/SLRA-ST/artifacts/models/araelectra_emd_d3
