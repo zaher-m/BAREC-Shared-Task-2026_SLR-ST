@@ -1,0 +1,9 @@
+>>> 10:12:07 arabertv2_large_wkl (wkl/d3tok bs=24)
+<<< 11:30:28 done arabertv2_large_wkl (exit 0)
+=== L2_A DONE 11:30:28 ===
+>>> 11:30:28 arabertv2_large_reg_raw (reg/raw bs=24)
+<<< 12:39:41 done arabertv2_large_reg_raw (exit 0)
+>>> 12:39:41 arabertv2_large_corn_raw (corn/raw bs=24)
+<<< 13:57:36 done arabertv2_large_corn_raw (exit 0)
+=== L2_B DONE 13:57:36 ===
+>>> 13:57:36 xlmr_large_reg (reg/raw bs=16)
