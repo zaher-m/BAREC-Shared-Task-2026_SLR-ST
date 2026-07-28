@@ -1,0 +1,24 @@
+[alldata] train=62155 (train+dev), holdout=test=7286
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 8768.97it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: aubmindlab/bert-large-arabertv2
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=0.1880 dev_QWK(naive)=81.238 979s
+ep1 loss=0.1188 dev_QWK(naive)=81.324 811s
+ep2 loss=0.0981 dev_QWK(naive)=82.776 1428s
+ep3 loss=0.0812 dev_QWK(naive)=83.527 2078s
+ep4 loss=0.0669 dev_QWK(naive)=82.920 2023s
+ep5 loss=0.0565 dev_QWK(naive)=83.014 2021s
+[arabertv2_large_corn_ad DEV  cal] QWK=85.1226 Acc19=40.05 Acc7=59.13 Acc5=66.77 Acc3=74.57 Adj+-1=73.46 MAE=1.1156
+[arabertv2_large_corn_ad TEST cal] QWK=85.1226 Acc19=40.05 Acc7=59.13 Acc5=66.77 Acc3=74.57 Adj+-1=73.46 MAE=1.1156
+saved scores_arabertv2_large_corn_ad.npz and checkpoint /zaher/SLRA-ST/artifacts/models/arabertv2_large_corn_ad

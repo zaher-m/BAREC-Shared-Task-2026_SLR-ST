@@ -1,0 +1,17 @@
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 13778.97it/s]
+[transformers] [1mXLMRobertaModel LOAD REPORT[0m from: FacebookAI/xlm-roberta-large
+Key                       | Status     |  | 
+--------------------------+------------+--+-
+lm_head.layer_norm.weight | UNEXPECTED |  | 
+lm_head.dense.weight      | UNEXPECTED |  | 
+lm_head.bias              | UNEXPECTED |  | 
+lm_head.dense.bias        | UNEXPECTED |  | 
+lm_head.layer_norm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=9.4966 dev_QWK(naive)=77.326 1248s
+ep1 loss=3.6513 dev_QWK(naive)=80.127 1246s
+ep2 loss=2.9453 dev_QWK(naive)=79.489 1244s
+ep3 loss=2.3494 dev_QWK(naive)=80.889 1243s
+ep4 loss=1.9454 dev_QWK(naive)=80.753 1248s

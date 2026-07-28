@@ -1,0 +1,22 @@
+>>> 15:58:11 arabertv2_corn_ad (corn/d3tok bs=32) ALLDATA
+<<< 16:36:03 done arabertv2_corn_ad (exit 0)
+>>> 16:36:03 arabertv2_emd_ad (emd/d3tok bs=32) ALLDATA
+<<< 17:08:17 done arabertv2_emd_ad (exit 0)
+>>> 17:08:17 arabertv2_soft_ad (soft/d3tok bs=32) ALLDATA
+<<< 17:33:01 done arabertv2_soft_ad (exit 0)
+>>> 17:33:01 arabertv2_wkl_ad (wkl/d3tok bs=32) ALLDATA
+<<< 17:57:55 done arabertv2_wkl_ad (exit 0)
+>>> 17:57:55 araelectra_corn_ad (corn/d3tok bs=32) ALLDATA
+<<< 18:38:45 done araelectra_corn_ad (exit 0)
+>>> 18:38:45 aramodern_reg_ad (reg/raw bs=32) ALLDATA
+<<< 19:45:15 done aramodern_reg_ad (exit 0)
+>>> 19:45:15 arbertv2_corn_ad (corn/d3tok bs=32) ALLDATA
+<<< 20:20:30 done arbertv2_corn_ad (exit 0)
+=== AD_BASE DONE 20:20:30 ===
+>>> 20:20:30 arabertv2_large_corn_ad (corn/d3tok bs=24) ALLDATA
+<<< 22:57:30 done arabertv2_large_corn_ad (exit 0)
+>>> 23:46:05 arabertv2_large_reg_ad (reg/d3tok bs=24) ALLDATA
+<<< 01:20:38 done arabertv2_large_reg_ad (exit 0)
+>>> 01:36:25 arabertv2_large_soft_ad (soft/d3tok bs=24) ALLDATA
+<<< 04:12:59 done arabertv2_large_soft_ad (exit 0)
+=== ALLDATA DONE 04:12:59 ===

@@ -1,0 +1,23 @@
+[alldata] train=62155 (train+dev), holdout=test=7286
+Loading weights:   0%|          | 0/134 [00:00<?, ?it/s]Loading weights: 100%|██████████| 134/134 [00:00<00:00, 3034.25it/s]
+[transformers] [1mModernBertModel LOAD REPORT[0m from: NAMAA-Space/AraModernBert-Base-V1.0
+Key               | Status     |  | 
+------------------+------------+--+-
+head.dense.weight | UNEXPECTED |  | 
+decoder.bias      | UNEXPECTED |  | 
+head.norm.weight  | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=12.3109 dev_QWK(naive)=78.212 494s
+ep1 loss=2.7390 dev_QWK(naive)=80.371 495s
+ep2 loss=1.5623 dev_QWK(naive)=81.058 494s
+ep3 loss=0.8937 dev_QWK(naive)=80.966 495s
+ep4 loss=0.5231 dev_QWK(naive)=81.550 492s
+ep5 loss=0.3238 dev_QWK(naive)=81.318 495s
+ep6 loss=0.2103 dev_QWK(naive)=81.310 492s
+ep7 loss=0.1482 dev_QWK(naive)=81.458 493s
+early stop
+[aramodern_reg_ad DEV  cal] QWK=82.2977 Acc19=28.92 Acc7=51.70 Acc5=61.30 Acc3=70.60 Adj+-1=67.65 MAE=1.3416
+[aramodern_reg_ad TEST cal] QWK=82.2977 Acc19=28.92 Acc7=51.70 Acc5=61.30 Acc3=70.60 Adj+-1=67.65 MAE=1.3416
+saved scores_aramodern_reg_ad.npz and checkpoint /zaher/SLRA-ST/artifacts/models/aramodern_reg_ad

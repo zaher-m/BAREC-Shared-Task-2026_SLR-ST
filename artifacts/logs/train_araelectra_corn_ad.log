@@ -1,0 +1,24 @@
+[alldata] train=62155 (train+dev), holdout=test=7286
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 5168.76it/s]
+[transformers] [1mElectraModel LOAD REPORT[0m from: aubmindlab/araelectra-base-discriminator
+Key                                               | Status     |  | 
+--------------------------------------------------+------------+--+-
+discriminator_predictions.dense_prediction.weight | UNEXPECTED |  | 
+discriminator_predictions.dense.bias              | UNEXPECTED |  | 
+discriminator_predictions.dense.weight            | UNEXPECTED |  | 
+discriminator_predictions.dense_prediction.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=0.2246 dev_QWK(naive)=78.688 308s
+ep1 loss=0.1337 dev_QWK(naive)=80.607 303s
+ep2 loss=0.1111 dev_QWK(naive)=82.290 301s
+ep3 loss=0.0947 dev_QWK(naive)=82.597 309s
+ep4 loss=0.0803 dev_QWK(naive)=82.833 299s
+ep5 loss=0.0691 dev_QWK(naive)=82.235 301s
+ep6 loss=0.0604 dev_QWK(naive)=81.649 302s
+ep7 loss=0.0545 dev_QWK(naive)=81.826 306s
+early stop
+[araelectra_corn_ad DEV  cal] QWK=84.1603 Acc19=39.16 Acc7=58.63 Acc5=66.29 Acc3=73.84 Adj+-1=72.69 MAE=1.1640
+[araelectra_corn_ad TEST cal] QWK=84.1603 Acc19=39.16 Acc7=58.63 Acc5=66.29 Acc3=73.84 Adj+-1=72.69 MAE=1.1640
+saved scores_araelectra_corn_ad.npz and checkpoint /zaher/SLRA-ST/artifacts/models/araelectra_corn_ad
