@@ -1,0 +1,26 @@
+=== endgame start 21:30 (cutoff 2215) ===
+reg_ad ready 21:49
+our training stopped 21:49; GPU freed for inference
+=== validate enlarged blend 21:49 ===
+CURRENT blend (20 members):  holdout 86.936 +- 0.345
+AD half: 11 members (1 new: ['arabertv2_reg_ad'])
+AD half alone:                 holdout 86.793 +- 0.294
+CANDIDATE blend:               holdout 86.946 +- 0.369
+
+=> CANDIDATE WINS by +0.010; writing ensemble_final.json
+[FINAL blend test] QWK=87.2653 Acc19=36.21 Acc7=59.83 Acc5=66.96 Acc3=74.46 Adj+-1=74.94 MAE=1.0852
+wrote ensemble_final.json
+=== blind inference on ensemble_final 21:49 ===
+inference exit=0 22:03
+cached blind scores -> predictions/prediction_final_scores.npz
+wrote predictions/prediction_final and predictions/prediction_final.zip  (8077 rows)
+=== validate submission ===
+  cols         OK
+  rows8077     OK
+  int1..19     OK
+  noNaN        OK
+  id_aligned   OK
+  zip_entry    OK
+  ALL PASS: True
+  differs from V7 on 557/8077 (6.9%)  mean pred 10.49
+=== ENDGAME DONE 22:03 ===

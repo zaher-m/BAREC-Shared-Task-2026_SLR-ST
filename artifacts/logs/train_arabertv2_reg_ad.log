@@ -1,0 +1,26 @@
+[alldata] train=62155 (train+dev), holdout=test=7286
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11285.38it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: aubmindlab/bert-base-arabertv2
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=17.2879 dev_QWK(naive)=79.310 779s
+ep1 loss=3.2524 dev_QWK(naive)=83.514 774s
+ep2 loss=2.5196 dev_QWK(naive)=84.075 772s
+ep3 loss=2.0288 dev_QWK(naive)=84.299 773s
+ep4 loss=1.6242 dev_QWK(naive)=84.209 772s
+ep5 loss=1.3825 dev_QWK(naive)=83.298 657s
+ep6 loss=1.1906 dev_QWK(naive)=83.939 785s
+early stop
+[arabertv2_reg_ad DEV  cal] QWK=85.0354 Acc19=32.62 Acc7=57.10 Acc5=63.97 Acc3=72.67 Adj+-1=72.37 MAE=1.2009
+[arabertv2_reg_ad TEST cal] QWK=85.0354 Acc19=32.62 Acc7=57.10 Acc5=63.97 Acc3=72.67 Adj+-1=72.37 MAE=1.2009
+saved scores_arabertv2_reg_ad.npz and checkpoint /zaher/SLRA-ST/artifacts/models/arabertv2_reg_ad
