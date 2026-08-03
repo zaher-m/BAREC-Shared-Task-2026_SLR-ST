@@ -1,0 +1,23 @@
+[fold 1/5] train=55492 holdout(OOF)=13949 docs_held=379
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 9721.82it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: aubmindlab/bert-base-arabertv2
+Key                                        | Status     |  | 
+-------------------------------------------+------------+--+-
+cls.seq_relationship.bias                  | UNEXPECTED |  | 
+cls.seq_relationship.weight                | UNEXPECTED |  | 
+cls.predictions.bias                       | UNEXPECTED |  | 
+cls.predictions.transform.dense.weight     | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED |  | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED |  | 
+cls.predictions.transform.dense.bias       | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=1.0605 dev_QWK(naive)=81.140 217s
+ep1 loss=0.7383 dev_QWK(naive)=82.940 217s
+ep2 loss=0.6085 dev_QWK(naive)=83.043 217s
+ep3 loss=0.5157 dev_QWK(naive)=82.523 217s
+ep4 loss=0.4532 dev_QWK(naive)=82.478 216s
+[arabertv2_emd_kf1 DEV  cal] QWK=83.8101 Acc19=38.48 Acc7=58.71 Acc5=66.10 Acc3=75.01 Adj+-1=72.77 MAE=1.1589
+[arabertv2_emd_kf1 TEST cal] QWK=83.8101 Acc19=38.48 Acc7=58.71 Acc5=66.10 Acc3=75.01 Adj+-1=72.77 MAE=1.1589
+saved scores_arabertv2_emd_kf1.npz and checkpoint /zaher/SLRA-ST/artifacts/models/arabertv2_emd_kf1

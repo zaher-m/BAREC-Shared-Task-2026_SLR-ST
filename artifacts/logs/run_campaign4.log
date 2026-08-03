@@ -1,0 +1,17 @@
+>>> 20:27:20 allam7b_soft_ad
+<<< 22:55:03 done allam7b_soft_ad (exit 0)
+>>> 22:55:03 blind inference: allam
+<<< 23:00:39 inference allam (exit 0)
+=== ALLAM DONE 23:00:39 ===
+skip arabertv2_emd_kf0
+>>> 23:00:39 arabertv2_emd_kf1
+<<< 23:19:11 done arabertv2_emd_kf1 (exit 0)
+>>> 23:19:11 arabertv2_emd_kf2
+<<< 23:37:13 done arabertv2_emd_kf2 (exit 0)
+>>> 23:37:13 arabertv2_emd_kf3
+<<< 23:55:43 done arabertv2_emd_kf3 (exit 0)
+>>> 23:55:43 arabertv2_emd_kf4
+<<< 00:14:12 done arabertv2_emd_kf4 (exit 0)
+>>> 00:14:12 blind inference: kfemd
+<<< 00:15:01 inference kfemd (exit 0)
+=== CAMPAIGN4 DONE 00:15:01 ===
