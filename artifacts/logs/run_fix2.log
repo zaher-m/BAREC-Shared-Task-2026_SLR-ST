@@ -1,0 +1,8 @@
+>>> 13:17:01 arabertv2_large_reg_ad2 (reg/d3tok lr=8e-6 ep=4)
+<<< 14:08:13 done arabertv2_large_reg_ad2 (exit 0)
+=== FIX2 DONE 14:08:13 ===
+>>> 14:08:13 marbert_corn_ad (corn/d3tok lr=2e-5 ep=6)
+<<< 14:41:06 done marbert_corn_ad (exit 0)
+>>> 14:41:06 camelbert_corn_ad (corn/d3tok lr=2e-5 ep=6)
+<<< 15:09:30 done camelbert_corn_ad (exit 0)
+=== POOL DONE 15:09:30 ===
