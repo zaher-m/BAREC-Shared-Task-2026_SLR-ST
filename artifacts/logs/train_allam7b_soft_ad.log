@@ -1,0 +1,15 @@
+[alldata] train=62155 (train+dev), holdout=test=7286
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 14453.15it/s]
+[transformers] [1mLlamaModel LOAD REPORT[0m from: ALLaM-AI/ALLaM-7B-Instruct-preview
+Key            | Status     |  | 
+---------------+------------+--+-
+lm_head.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+ep0 loss=0.7338 dev_QWK(naive)=83.294 4179s
+ep1 loss=0.4629 dev_QWK(naive)=84.649 4206s
+[allam7b_soft_ad DEV  cal] QWK=85.8837 Acc19=32.54 Acc7=57.62 Acc5=65.14 Acc3=73.33 Adj+-1=72.59 MAE=1.1766
+[allam7b_soft_ad TEST cal] QWK=85.8837 Acc19=32.54 Acc7=57.62 Acc5=65.14 Acc3=73.33 Adj+-1=72.59 MAE=1.1766
+saved scores_allam7b_soft_ad.npz and checkpoint /zaher/SLRA-ST/artifacts/models/allam7b_soft_ad

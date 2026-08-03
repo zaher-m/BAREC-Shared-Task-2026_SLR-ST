@@ -1,0 +1,12 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 7246.21it/s]
+[transformers] [1mLlamaModel LOAD REPORT[0m from: ALLaM-AI/ALLaM-7B-Instruct-preview
+Key            | Status     |  | 
+---------------+------------+--+-
+lm_head.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+scored allam7b_soft_ad
+cached blind scores -> predictions/blind_allam_scores.npz
+wrote predictions/blind_allam and predictions/blind_allam.zip  (8077 rows)
