@@ -1,0 +1,11 @@
+>>> 19:21:05 preprocessing blind (d3tok, one-time)
+wrote data/proc_d3tok_blind.parquet 8077
+>>> 19:21:25 arabertv2_emd_ps (emd --alldata --pseudo data/proc_d3tok_blind.parquet --bs 32 --lr 2e-5 --epochs 5 --patience 2)
+<<< 19:44:22 done arabertv2_emd_ps (exit 0)
+>>> 19:44:22 arabertv2_soft_ps (soft --alldata --pseudo data/proc_d3tok_blind.parquet --bs 32 --lr 2e-5 --epochs 5 --patience 2)
+<<< 20:07:32 done arabertv2_soft_ps (exit 0)
+infer set psfam: ['arabertv2_emd_ps', 'arabertv2_soft_ps']
+>>> 20:07:32 blind inference: psfam
+<<< 20:07:53 inference psfam (exit 0)
+=== PSEUDO FAMILY DONE 20:07:53 ===
+>>> 20:07:53 arabertv2_emd_kf0 (emd --fold 0 --bs 32 --lr 2e-5 --epochs 5 --patience 2)
