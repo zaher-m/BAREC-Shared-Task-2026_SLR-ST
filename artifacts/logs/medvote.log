@@ -1,0 +1,7 @@
+reverted prior (the 85.4 winner's): mean=10.47 var=8.99   [W1 used 9.31 -> got 85.2]
+
+                          scheme      wQWK     wAcc
+  single rule (what we ship now)    85.289    38.66
+        median-vote of M=9 rules    85.346    38.16
+
+pred_M1_medvote: blind var=8.86 mean=10.48 diff-vs-85.4-winner=7.8% VALID=True
