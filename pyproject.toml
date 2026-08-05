@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BAREC_slra_st"
+version = "1.0.0"
+description = "Sentence-level Arabic readability assessment for the BAREC 2026 shared task (strict track)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "zaher-m" }]
+keywords = ["arabic", "readability", "ordinal-regression", "quadratic-weighted-kappa", "barec"]
+dependencies = [
+    "torch>=2.4",
+    "transformers>=4.44",
+    "peft>=0.12",
+    "pandas>=2.2",
+    "pyarrow>=16",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "huggingface-hub>=0.24",
+    "camel-tools>=1.5",
+]
+
+[project.scripts]
+slra-preprocess = "slra_st.preprocess:main"
+slra-train = "slra_st.train:main"
+slra-infer = "slra_st.infer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
