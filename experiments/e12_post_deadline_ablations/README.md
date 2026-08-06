@@ -2,7 +2,7 @@
 
 **When** Aug 4-6 · **Verdict** nothing adds information; the system is saturated at 85.4–85.5
 
-With the submission phase closed, three questions were answered under pre-registered rules. Two overnight
+With the submission phase closed, we answered three questions under rules we had fixed beforehand. Two overnight
 campaigns cover all three, which is why they share one directory: `run_campaign3.sh` launched the
 pseudo-label family and the folds, `run_campaign4.sh` reprioritized to put the 7B first and completed
 the emd folds.
@@ -36,7 +36,7 @@ self-referential. Full write-up:
 
 ## E13. ALLaM-7B LoRA
 
-**Question (pre-registered capacity endpoint):** does a 7B Arabic LLM, 52× the large encoder's
+**Question (the capacity endpoint we had committed to):** does a 7B Arabic LLM, 52× the large encoder's
 parameters, a different pretraining corpus, beat the 370M encoder?
 
 **Configuration:** `ALLaM-AI/ALLaM-7B-Instruct-preview`, soft objective, d3tok, all-data regime,
@@ -47,8 +47,8 @@ attention-only LoRA r=16, bs 16, lr 1e-4, 2 epochs.
 behind the two distilled students.
 
 **System-level verdict:** single-model weighted QWK **83.94†**, and the best blend into the system
-(β = 0.2) adds **+0.045† wQWK, below the ±0.1–0.2 noise floor**. By the pre-registered rule,
-**not included**.
+(β = 0.2) adds **+0.045† wQWK, below the ±0.1–0.2 noise floor**. By the noise-floor rule we fixed in e08,
+we did not include it.
 
 The striking comparison: a pseudo-distilled **135M** student (83.98†) *matches* the LoRA-tuned **7B**
 (83.94†) at roughly 1/50 the inference cost. Caveats stated plainly: 2 epochs, attention-only LoRA
@@ -105,6 +105,5 @@ grid**, those predictions (`artifacts/predictions/research/`) exist for their ca
 not for their labels. Logs: `artifacts/logs/run_campaign3.log`, `run_campaign4.log`,
 `train_allam7b_soft_ad.log`, `train_arabertv2_*_ps.log`, `train_arabertv2_emd_kf*.log`.
 
-† These numbers come from the author's working notes. So, you cannot recompute them from this
-repository. The per-fold and per-model training numbers above *are* in
+† These numbers come from our working notes. The per-fold and per-model training numbers above *are* in
 `artifacts/logs/`. See [../../docs/reproducibility.md](../../docs/reproducibility.md#tier-3-not-verifiable-from-this-repository).

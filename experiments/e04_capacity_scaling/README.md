@@ -57,5 +57,5 @@ floor. Returns to capacity collapse past a few hundred million parameters on thi
 
 Logs: `artifacts/logs/run_large*.log`, `train_arabertv2_large_*.log`, `train_xlmr_large_reg.log`.
 
-† From the author's working notes, not recomputable here; see
+† From our working notes, see
 [../../docs/reproducibility.md](../../docs/reproducibility.md#tier-3-not-verifiable-from-this-repository).

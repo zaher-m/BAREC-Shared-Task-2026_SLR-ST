@@ -29,7 +29,7 @@ produced no code of their own, and E13/E14 shared the two overnight campaigns in
 - Per-model results: [../docs/results.md](../docs/results.md), from `artifacts/metadata/` and
   `artifacts/logs/train_*.log`.
 - Ensemble compositions and fitted thresholds: [../configs/](../configs/).
-- Submission record with scores: [../submissions/README.md](../submissions/README.md).
+- Submission record with scores: [../docs/results.md](../docs/results.md#submission-record).
 - Campaign logs, including the only run log containing ensemble metrics
   (`artifacts/logs/run_endgame.log`).
 

@@ -77,5 +77,5 @@ and writes a config byte-identical to `configs/ensembles/final_v8.json`.
 
 Log: `artifacts/logs/run_endgame.log`, `infer_final.log`.
 
-† From the author's working notes, not recomputable from this repository; see
+† From our working notes, see
 [../../docs/reproducibility.md](../../docs/reproducibility.md#tier-3-not-verifiable-from-this-repository).
