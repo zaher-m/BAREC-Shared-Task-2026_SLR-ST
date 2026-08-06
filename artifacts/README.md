@@ -60,7 +60,7 @@ scripts that need the training prior run without the corpus. Aggregate counts on
 
 Two inference runs have no log at all (the producer of the first scored submission, and the V6
 rewrite); one submission's ensemble membership is consequently unknown. Flagged rather than papered
-over, see [../submissions/README.md](../submissions/README.md).
+over, see [../docs/results.md](../docs/results.md#submission-record).
 
 ## predictions/
 
