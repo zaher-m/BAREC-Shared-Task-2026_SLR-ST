@@ -1,0 +1,31 @@
+# Trained weights: 41 GB over 61 model directories. Can be retrained from experiments/
+artifacts/models/
+
+# BAREC corpus and the preprocessed variants. Not ours to redistribute, see data/README.md
+data/*
+!data/README.md
+
+# Third-party clone of the official evaluator
+external/*
+
+# Paper drafts
+paper/
+docs/
+
+# Scratch output when re-running the experiment scripts
+artifacts/regenerated/
+
+# Environment
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Packaging metadata: `pip install -e .` writes src/*.egg-info, which carries the author name
+*.egg-info/
+build/
+dist/
+
+# Local editor/tool settings
+*.local.json
+.DS_Store
