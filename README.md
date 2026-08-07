@@ -27,10 +27,10 @@ Four things did most of the work, in order of measured effect:
    weighted-kappa loss, squared EMD) on AraBERTv2 decorrelate errors better than five different
    backbones do. Greedy selection kept the objective variants and dropped most of the backbones.
 3. **Capacity, until it saturates.** base (135M) → large (370M) was the largest single lever
-   (+0.4 blind QWK). large → a LoRA-tuned **ALLaM-7B** (52× the parameters) added +0.045† wQWK,
+   (+0.4 blind QWK). large → a LoRA-tuned **ALLaM-7B** (~19× the parameters) added +0.045† wQWK,
    below the measured ±0.1–0.2 noise floor, so we excluded it under the noise-floor rule we had
    fixed in E8.
-4. **Target-prior threshold calibration**, the largest measured gain. We
+4. **Target-prior threshold calibration**, the deciding step of the final submission. We
    estimate the blind label prior with regularized BBSE, reweight the calibration set to it, and
    refit the 18 cut points. It improved both leaderboard metrics at once (85.3 → 85.4 QWK,
    +2.8 Acc). It has a clear failure mode: running BBSE a second time on its own output took the
