@@ -19,7 +19,7 @@ produced no code of their own, and E13/E14 shared the two overnight campaigns in
 | [E8](e08_combiner_bakeoff/) | Aug 2 | Combiner bake-off | Greedy, learned weights, robust aggregation, or a fixed blend? | **Fixed 50/50 two-regime blend scores highest** (86.936 ± 0.345); four sibling ideas refuted |
 | [E9](e09_endgame_gate/) | Aug 2 | Validated enlargement | Ship a bigger blend only if it actually improves on untouched data | +0.010 → shipped as V8 (blind 85.3 / 35.9) |
 | [E10](e10_accuracy_frontier/) | Aug 2 | Accuracy frontier | How much accuracy is free at fixed QWK? | Acc 35.9 → 37.9 → 40.4 at **flat** blind QWK; proved the shift was real |
-| [E11](e11_target_prior_calibration/) | Aug 2–3 | Target-prior calibration | Can the label shift be exploited ? | **The largest measured gain**: blind 85.4 / 38.7. Iterating it regresses to 85.2 |
+| [E11](e11_target_prior_calibration/) | Aug 2–3 | Target-prior calibration | Can the label shift be exploited ? | **The deciding step** (+0.1 QWK, +2.8 Acc at zero training cost): blind 85.4 / 38.7. Iterating it regresses to 85.2 |
 | [E12](e12_post_deadline_ablations/) | Aug 3–4 | Distillation, ALLaM-7B, 5-fold | What else could add information? | Nothing does. 98.2% compression, +0.045 from a 7B, 0.00 from 5 folds |
 | E15 | Aug 2–4 | Negative-results catalog | - | 15 refuted levers: [../docs/negative-results.md](../docs/negative-results.md) |
 | E16 | Aug 4 | Minimality and information accounting | How little of the system was needed? | k=1: 82.97 · k=3: 83.61 · k=5: 84.00 · k=8: 84.32 · 21: 85.48 |

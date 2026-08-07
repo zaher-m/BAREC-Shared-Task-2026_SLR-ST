@@ -1,6 +1,6 @@
 # E12–E14. Post-deadline ablations
 
-**When** Aug 4-6 · **Verdict** nothing adds information; the system is saturated at 85.4–85.5
+**When** Aug 3–4 · **Verdict** nothing adds information; the system is saturated at 85.4–85.5
 
 With the submission phase closed, we answered three questions under rules we had fixed beforehand. Two overnight
 campaigns cover all three, which is why they share one directory: `run_campaign3.sh` launched the
@@ -36,8 +36,8 @@ self-referential. Full write-up:
 
 ## E13. ALLaM-7B LoRA
 
-**Question (the capacity endpoint we had committed to):** does a 7B Arabic LLM, 52× the large encoder's
-parameters, a different pretraining corpus, beat the 370M encoder?
+**Question (the capacity endpoint we had committed to):** does a 7B Arabic LLM, ~19× the large encoder's
+parameters (~52× the base's), a different pretraining corpus, beat the 370M encoder?
 
 **Configuration:** `ALLaM-AI/ALLaM-7B-Instruct-preview`, soft objective, d3tok, all-data regime,
 attention-only LoRA r=16, bs 16, lr 1e-4, 2 epochs.
@@ -85,7 +85,7 @@ Four independent information sources, one protocol, the same answer:
 |---|---|
 | extra same-family members | +0.03 QWK per model† |
 | pseudo-distilled students | negative at every β |
-| a 52×-capacity Arabic LLM | +0.045 wQWK (noise)† |
+| a 7B Arabic LLM | +0.045 wQWK (noise)† |
 | 5 document-partitioned folds | 0.00† |
 | 15 post-processing levers | 0 or negative ([../../docs/negative-results.md](../../docs/negative-results.md)) |
 

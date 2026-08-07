@@ -33,10 +33,13 @@ here is the script's original wording rather than the vocabulary used elsewhere 
 CURRENT blend (20 members):  holdout 86.936 +- 0.345
 AD half alone:               holdout 86.793 +- 0.294
 CANDIDATE blend:             holdout 86.946 +- 0.369
-=> CANDIDATE WINS by +0.010; writing the final config
+=> CANDIDATE WINS by +0.010; writing ensemble_final.json
 [FINAL blend test] QWK=87.2653 Acc19=36.21 Acc7=59.83 Acc5=66.96 Acc3=74.46 Adj+-1=74.94 MAE=1.0852
 differs from V7 on 557/8077 (6.9%)  mean pred 10.49
 ```
+
+(`ensemble_final.json` is the file's name at the time; it is now
+[`configs/ensembles/final_v8.json`](../../configs/ensembles/final_v8.json).)
 
 **+0.010 is inside the noise floor**, and worth being honest about: the gate did not establish that
 21 members beat 20, only that the enlargement was not a regression. It shipped because it was free
